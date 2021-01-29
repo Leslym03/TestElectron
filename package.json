@@ -1,0 +1,25 @@
+{
+  "name": "testelectron",
+  "version": "1.0.0",
+  "description": "electron crud mysql",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leslym03/TestElectron.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leslym03/TestElectron/issues"
+  },
+  "homepage": "https://github.com/Leslym03/TestElectron#readme",
+  "dependencies": {
+    "electron": "^11.2.1",
+    "electron-packager": "^15.2.0",
+    "electron-reload": "^1.5.0",
+    "promise-mysql": "^5.0.2"
+  }
+}
